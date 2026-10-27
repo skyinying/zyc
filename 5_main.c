@@ -15,7 +15,7 @@ int main()
  if(op=='/'&&b==0){
     printf("输出：错误：除数不能为0\n");
        }
- else if(op=='+'||op=='-'||op=='*'||op=='/){
+ else if(op=='+'||op=='-'||op=='*'||op=='/'){
      if(op=='+'){
         printf("输出:%.2f\n",a+b);
      }else if(op=='-'){
@@ -30,7 +30,6 @@ int main()
 
 return 0;
 }
- 
 
  
  
