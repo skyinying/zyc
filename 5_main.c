@@ -22,7 +22,7 @@ int main()
      }else if(op=='*'){
         printf("输出:%.2f\n",a*b);
      }else 
-        printf("输出：%,2f\n",a/b);
+        printf("输出：%.2f\n",a/b);
     }
  else 
     printf("输出：错误：不支持的运算符");
