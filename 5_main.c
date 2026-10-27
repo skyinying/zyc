@@ -5,12 +5,11 @@
 int main()
 
 {
- printf("请输入数字：");
 
  float a,b;
  char op;
 
- scanf("%f%c%f",&a,&op,&b);
+ scanf("%f %c %f",&a,&op,&b);
 
  if(op=='/'&&b==0){
     printf("输出：错误：除数不能为0\n");
