@@ -12,25 +12,25 @@ int main()
  float b;
  scanf("%f%c%f",&a,&op,&b);
 
- if(op=='+'||op=='-'||op=='*'||op=='/'){
-     if(op=='+'){
-        printf("输出:%.2f\n",a+b);
-     }else if(op=='-'){
-        printf("输出:%.2f\n",a-b);
-     }else if(op=='*'){
-        printf("输出:%.2f\n",a*b);
-     }else if(op=='/'){
+ if(op=='/'){
         if(b==0){
          printf("输出：错误：除数不能为0\n");
        }else 
          printf("输出：%.2f\n",a/b);
     }
+ else if(op=='+'||op=='-'||op=='*'){
+     if(op=='+'){
+        printf("输出:%.2f\n",a+b);
+     }else if(op=='-'){
+        printf("输出:%.2f\n",a-b);
+     }else
+        printf("输出:%.2f\n",a*b);
+     }
  else
    printf("输出：错误：不支持的运算符");
 
 return 0;
-
- }
+}
  
 
  
