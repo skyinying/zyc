@@ -4,8 +4,6 @@
 
 int main()
 {
-    printf("请输入摄氏温度");
-
     float C;
 
     scanf("%f",&C);
