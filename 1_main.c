@@ -7,7 +7,7 @@ int main()
     float C;
 
     scanf("%f",&C);
-    printf("华氏温度=%f。\n",C*9.0/5+32);
+    printf("华氏温度 = %.1f\n",C*9.0/5+32);
 
 
     return 0;
