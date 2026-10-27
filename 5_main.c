@@ -7,9 +7,9 @@ int main()
 {
  printf("请输入数字：");
 
- float a;
+ float a,b;
  char op;
- float b;
+
  scanf("%f%c%f",&a,&op,&b);
 
  if(op=='/'&&b==0){
@@ -22,12 +22,12 @@ int main()
         printf("输出:%.2f\n",a-b);
      } else if(op=='/')
         printf("输出：%.2f\n",a/b);
-       else 
+       else if(op=='*')
         printf("输出:%.2f\n",a*b);
      }
- else
+ else{
    printf("输出：错误：不支持的运算符");
-
+ }
 return 0;
 }
 
