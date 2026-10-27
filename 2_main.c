@@ -14,7 +14,7 @@ int main()
     else
         if(A>0)printf("正数\n");
     else 
-        printf("0\n");
+        printf("零\n");
     
    return 0;
 }
